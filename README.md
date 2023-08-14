@@ -20,8 +20,10 @@ In particular, we create a pipeline to load the data and we retrieve the most re
 
 ## Pre-requisites
 Run the following commands to download the ray doc and the Anyscale website
-wget -e robots=off --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains docs.ray.io --no-parent https://docs.ray.io/en/master/
-wget -e robots=off --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains anyscale.com --no-parent https://www.anyscale.com/blog
+
+`wget -e robots=off --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains docs.ray.io --no-parent https://docs.ray.io/en/master/`
+
+`wget -e robots=off --recursive --no-clobber --page-requisites --html-extension --convert-links --restrict-file-names=windows --domains anyscale.com --no-parent https://www.anyscale.com/blog`
 
 Follow the Ray or Anyscale documentation to start a cluster. In the current example, we use a cluster with one GPU but this can be run on CPU as well.
 
